@@ -1,0 +1,32 @@
+Version: 1.1.1
+    Added:
+        - WP 5.6 compatibility
+        - PHP 7.4 compatibility
+        - Themerex Updater plugin
+
+    Fixed:
+        - Improve theme styles
+        - Update plugins to their latest versions
+
+    Changed:
+        - Update demo
+
+Version 1.1.0
+    Added:
+        - Alert to Demo data installation
+        - Privacy Policy page
+		- GDPR compatibility
+    Changed:
+        - Update default contact forms to make them GDPR-compliant
+        - Update demo data
+    Fixed:
+        - Improve compatibility with PHP 7.3
+        - Update plugins to their latest versions
+		- Blog archive pagination
+        - Update scripts libraries
+        - Improve theme styles
+    Removed:
+        - Support page, Video Tutorials page
+
+Version: 1.0 (EV: 1.0.40.3)
+	- Release
