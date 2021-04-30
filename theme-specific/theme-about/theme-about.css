@@ -1,0 +1,250 @@
+/* About Theme
+----------------------------------------------------------------*/
+.filmax_about {
+	margin: 2em 2em 0 0;
+	padding: 3em;
+	background-color: #fff;
+	border: 1px solid #ddd;
+	-webkit-border-radius: 2px;
+	    -ms-border-radius: 2px;
+			border-radius: 2px;
+}
+@media (max-width: 959px) {
+	.filmax_about {
+		margin: 1em 1em 0 0;
+		padding: 2em;
+	}
+}
+
+/* Header */
+.filmax_about_header {
+	overflow:hidden;
+}
+	.filmax_about_logo {
+		float: left;
+		display:inline-block;
+		max-width: 30%;
+		margin: 0 2em 1em 0;
+	}
+	@media (max-width: 783px) {
+		.filmax_about_logo {
+			max-width: 50%;
+			margin: 0 0 1em 0;
+			float: none;
+		}
+	}
+	@media (max-width: 479px) {
+		.filmax_about_logo {
+			max-width: 100%;
+		}
+	}
+	.filmax_about_logo img {
+		max-width: 100%;
+		height: auto;
+	}
+
+	.filmax_about_header .filmax_about_pro_link,
+	.filmax_about_table .filmax_about_pro_link {
+		font-size: 1.1538em;
+		line-height:1.7em;
+		padding:0.6em 1.2em;
+		height: auto;
+		display: inline-block;
+		float:right;
+		margin: 0 0 1em 1em;
+		background-color:#008800;
+		border-color: #00aa00 #006600 #006600;
+		-webkit-box-shadow: 0 1px 0 #006600;
+		    -ms-box-shadow: 0 1px 0 #006600;
+				box-shadow: 0 1px 0 #006600;
+		text-shadow: 0 -1px 1px #006600,1px 0 1px #006600,0 1px 1px #006600,-1px 0 1px #006600;
+	}
+	.filmax_about_header .filmax_about_pro_link:hover,
+	.filmax_about_table .filmax_about_pro_link:hover {
+		background-color:#66aa00;
+		border-color: #88cc00 #228800 #228800;
+		-webkit-box-shadow: 0 1px 0 #228800;
+		    -ms-box-shadow: 0 1px 0 #228800;
+				box-shadow: 0 1px 0 #228800;
+		text-shadow: 0 -1px 1px #228800,1px 0 1px #228800,0 1px 1px #228800,-1px 0 1px #228800;
+	}
+	
+	.filmax_about_title {
+		text-align: left;
+		margin-top:0;
+		line-height:1.5em;
+	}
+	.filmax_about_description {
+		color: #888;
+		margin-bottom: 3em;
+		line-height:1.5em;
+	}
+	.filmax_about_description p {
+		font-size: 1.1538em;
+		line-height: 1.5em;
+		margin: 0.5em 0 0;
+	}
+	@media (max-width: 1279px) {
+		.filmax_about_description p {
+			font-size: 1em;
+			line-height: 1.7em;
+		}
+	}
+	.filmax_about_description b,
+	.filmax_about_description strong {
+		color: #333;
+	}
+
+
+/* Tabs */
+#filmax_about_tabs > ul > li > a {
+	background-color: #eee;
+	font-size: 1.1538em;
+}
+#filmax_about_tabs > ul > li.ui-state-active > a {
+	background-color: #f7f7f7;
+}
+
+/* Sections */
+#filmax_about_tabs .filmax_about_section {
+	display:flex;
+	flex-wrap:wrap;
+	background-color: #f7f7f7;
+	padding: 2em;
+}
+
+/* Blocks */
+.filmax_about_block {
+	display: inline-block;
+	vertical-align:top;
+	font-size: 1.1538em;
+	width: 25%;
+	padding: 0 2em 2em 0;
+	-webkit-box-sizing: border-box;
+	    -ms-box-sizing: border-box;
+	        box-sizing: border-box;
+}
+@media (max-width: 1679px) {
+	.filmax_about_block {
+		width: 33.3333%;
+	}
+}
+@media (max-width: 1439px) {
+	.filmax_about_block {
+		width: 50%;
+	}
+}
+@media (max-width: 1279px) {
+	#filmax_about_tabs > ul > li > a {
+		font-size: 1em;
+	}
+	.filmax_about_block {
+		font-size: 1em;
+	}
+}
+@media (max-width: 767px) {
+	.filmax_about_block {
+		width: 100%;
+		padding-right:0;
+	}
+}
+.filmax_about_block_inner {
+	display: inline-block;
+	vertical-align:top;
+	width: 100%;
+	height: 100%;
+	padding: 2em;
+	-webkit-box-sizing: border-box;
+	    -ms-box-sizing: border-box;
+	        box-sizing: border-box;
+	background-color: #fff;
+	border: 1px solid #ddd;
+	-webkit-border-radius: 2px;
+	    -ms-border-radius: 2px;
+			border-radius: 2px;
+	-webkit-transition: -webkit-box-shadow .5s ease;
+	    -ms-transition: -ms-box-shadow .5s ease;
+	        transition: box-shadow .5s ease;
+}
+.filmax_about_block_inner:hover {
+	-webkit-box-shadow: 0 0 20px 0 rgba(0, 0, 0, 0.2);
+	    -ms-box-shadow: 0 0 20px 0 rgba(0, 0, 0, 0.2);
+			box-shadow: 0 0 20px 0 rgba(0, 0, 0, 0.2);
+}
+.filmax_about_block_title {
+	margin: 0;
+}
+.filmax_about_block_description {
+	margin: 1em 0;
+	line-height:1.7em;
+}
+.filmax_about_block a.filmax_about_block_link {
+	font-size: 1em;
+	line-height:1.7em;
+	padding:0.5em 1em;
+	height: auto;
+	display: inline-block;
+	margin: 0.5em 0;
+	vertical-align:middle;
+}
+
+/* Section 'Required actions' */
+#filmax_about_section_actions .filmax_about_block {
+	width: 100%;
+	padding-right:0;
+}
+#filmax_about_section_actions .filmax_about_block_inner {
+	border-width: 0 0 0 3px;
+	border-color: red;
+	-webkit-border-radius: 0;
+	    -ms-border-radius: 0;
+			border-radius: 0;
+}
+
+/* Section Free vs Pro */
+table.filmax_about_table {
+	border-collapse: collapse;
+	width:100%;
+}
+.filmax_about_table tr {
+	border-bottom: 1px solid #ddd;
+}
+.filmax_about_table td {
+	padding: 2em 0;
+}
+.filmax_about_table td + td {
+	padding: 2em 1em;
+	text-align: center;
+}
+.filmax_about_table_info {
+	width: 70%;
+}
+.filmax_about_table_check {
+	width: 15%;
+}
+.filmax_about_table_info_title {
+	margin-top: 0;
+	margin-bottom: 0.3em;
+}
+.filmax_about_table thead td.filmax_about_table_check {
+	font-size:1.1538em;
+	font-weight:bold;
+}
+.filmax_about_table td.filmax_about_table_check .dashicons {
+	font-size: 2em;
+	line-height:1em;
+	width: 1em;
+	height:1em;
+}
+.filmax_about_table td.filmax_about_table_check .dashicons:before {
+	font-size: 1em;
+}
+.filmax_about_table td.filmax_about_table_check .dashicons-yes:before {
+	color:#00aa00;
+}
+.filmax_about_table td.filmax_about_table_check .dashicons-no:before {
+	color:#aa0000;
+}
+table.filmax_about_table .filmax_about_block_link {
+	float:none;
+}
