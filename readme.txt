@@ -1,6 +1,6 @@
 == Filmax ==
 Version: 1.0
-Copyright: 2021, ThemeREX
+Copyright: 2021, SCUB
 WordPress version: required at least 4.5, tested up to 4.8
 License: GNU General Public License v2.0 or later
 License URI: http://www.gnu.org/licenses/gpl-2.0.html
@@ -24,7 +24,7 @@ Also the theme supports many popular plugins such as 'Revolution Slider', 'WPBak
 
 III. Documentation
 
-Theme documentation is available on http://basekit.themerex.net/doc/
+Theme documentation is available on SCUB#1991
 
 
 IV. Resources
