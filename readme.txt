@@ -1,6 +1,6 @@
 == Filmax ==
 Version: 1.0
-Copyright: 2021, SCUB
+Copyright: 2021, ThemeREX
 WordPress version: required at least 4.5, tested up to 4.8
 License: GNU General Public License v2.0 or later
 License URI: http://www.gnu.org/licenses/gpl-2.0.html
