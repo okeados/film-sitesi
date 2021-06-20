@@ -1,6 +1,6 @@
 == Filmax ==
 Version: 1.0
-Copyright: 2017, ThemeREX
+Copyright: 2021, ThemeREX
 WordPress version: required at least 4.5, tested up to 4.8
 License: GNU General Public License v2.0 or later
 License URI: http://www.gnu.org/licenses/gpl-2.0.html
@@ -74,5 +74,6 @@ IV. Resources
 8) images\name.ext
    Resource URI: https://depositphotos.com/image_download_url.html
    License: watermark distribution only
+   
    
 Other custom js files and images are our own creation and is licensed under the same license as this theme.
